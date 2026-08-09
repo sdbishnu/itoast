@@ -1,0 +1,22 @@
+{
+  "name": "@itoast/core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Framework-independent ITOAST Core Runtime.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node --check src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

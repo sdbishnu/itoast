@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# Test output
+coverage/
+
+# Caches
+.cache/
+.npm/
+.tmp/
+temp/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Runtime files
+*.pid
+*.seed
+
+# Temporary files
+*.tmp
+*.temp
