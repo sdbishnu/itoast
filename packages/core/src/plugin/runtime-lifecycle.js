@@ -1,0 +1,1 @@
+  validatePlugin(plugin); 
